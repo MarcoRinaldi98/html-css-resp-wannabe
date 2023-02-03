@@ -127,6 +127,12 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+@media all and (min-width:769px) and (max-width: 1160px) {  
+    .steps {
+        display: inline-block;
+    }
+}
+
 @media all and (max-width: 768px) {  
     .container {
         display: inline;
