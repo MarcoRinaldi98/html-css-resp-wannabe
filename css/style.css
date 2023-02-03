@@ -127,9 +127,9 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
-@media all and (min-width:769px) and (max-width: 1160px) {  
-    .steps {
-        display: inline-block;
+@media all and (min-width:769px) and (max-width: 1160px) {
+    .container {
+        display: inline;
     }
 }
 
@@ -146,6 +146,9 @@ img {
     .lessons .col {
         width: 100%;
     }
+    .steps {
+        margin: 0;
+    }
     .steps .col {
         width: 100%;
     }
@@ -155,7 +158,11 @@ img {
     .why-us .col-right {
         width: 100%;
     }
-    
+    .why-us{
+        background-color: rgb(34, 34, 34);
+        margin-bottom: 0;
+        padding: 3rem 0;
+    }
 }
 
 
